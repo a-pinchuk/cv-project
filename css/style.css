@@ -1,0 +1,55 @@
+body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #00f;
+}
+
+a:visited {
+    color: #005;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.hero__link {
+    text-transform: uppercase;
+}
+
+.hero__text {
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+.hero__title {
+    font-style: italic;
+}
+
+/* table  */
+
+.table__head {
+    text-transform: uppercase;
+}
+
+.table__descr{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* SKILLS */
+.main__item {
+    list-style-type: square;
+}
+
+.main__item--lng {
+    list-style: none;
+}
+
+.skills__text{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}

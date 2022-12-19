@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="./">Go home</a>
+    <h2>Hire me:</h2>
+        <p>Contact information</p>
+        <table border="1" cellspacing="0" cellpadding="10px">
+                <tr>
+                    <th>Phone:</th>
+                    <th>+380737777777</th>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <th>Kyiv, avenue.Obolonskiy</th>
+                </tr>
+        </table>
+
+        <br>
+
+        <fieldset>
+            <legend>Contact form</legend>
+            <form id="email">
+                <label for="payment-email" >Email: </label>
+                <input id="payment-email" type="email" name="email" required/>
+            </form>
+            
+      
+            <br />
+      
+            <label for="payemnt-comment">Description:</label><br />
+            <textarea 
+              id="payment-comment" 
+              name="payment-comment"
+              rows="20"
+              cols="70"
+            ></textarea>
+
+            <br>
+
+            <label>
+                Work-time
+                <select 
+                  required
+                  name="expiration-month">
+                  <option></option>
+                  <option value="01">Full-time</option>
+                  <option value="02">Working by home</option>
+                  <option value="02">One time project</option>
+                </select>
+              </label>
+
+              <br>
+
+              <input type="submit" form="email" value="Hire me" />
+          </fieldset>
+</body>
+</html>
