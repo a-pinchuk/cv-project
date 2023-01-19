@@ -5,88 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <title>Andrii Pinchuk CV</title>
 </head>
 <body>
     <header></header>
-    <main>
-        <section class="hero">
-            <div class="title">
-                <h1 class="hero__title">Andrii Pinchuk</h1>
-                 <a class="hero__link" href="./hireMe.html">Offer a job</a>
-                 <p class="hero__text">FrontEnd Engineer</p>
-                 <svg class="hero__svg"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                 <a class="hero__link--github"href="https://github.com/a-pinchuk/" target="_blank">GitHub</a>
+    <main class="main">
+        <section class="hero__block">
+            <div class="hero">
+                <div class="title">
+                    <h1 class="hero__title">Andrii <br><span class="hero__title--blue">Pinchuk</span></h1>
+                    <img class="hero__img" src="./images/photo_car.jpg" alt="andrii pinchuk selfie" width="500" height="500">
+                    <div class="hero__git">
+                        <a class="hero__link" href="./hireMe.html"><p>Offer a job</p></a>
+                     <!-- <p class="hero__text">FrontEnd Engineer</p> -->
+                    
+                     <a class="hero__link--github"href="https://github.com/a-pinchuk/" target="_blank"> 
+                        <svg class="hero__svg"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>GitHub
+                    </a>
+                    </div>
+                    
+                </div>
+                <ul class="hero__list">
+                    <li class="hero__item">Contact</li>
+                    <ul class="contact__list">
+                        <li class="contact__item">Address</li>
+                        <p class="contact__text"> Vinnytsia, Ukraine</p>
+                        <li class="contact__item">Phone</li>
+                        <p class="contact__text">+380737770377</p>
+                        <li class="contact__item">E-mail</li>
+                        <a class="contact__mail" href = "mailto: a.pinchuk@gonnagoods.com">a.pinchuk@gonnagoods.com</a>
+                        <li class="contact__item">LinkedIn</li>
+                        <a href="https://www.linkedin.com/in/andrew-pinchuk-4463521b1/" class="contact__text">www.linkedin.com/in/apinchuk</a>
+                    </ul>
+                    <li class="hero__item">Languages</li>
+                    <p class="lang__text">English (B1-B2)</p>
+                    <p class="lang__text">Polish (A2)</p>
+                    <p class="lang__text">Ukraine (Native)</p>
+                    <p class="lang__text">Russian (Native)</p>
+
+                </ul>
+               
             </div>
-            <img class="hero__img" src="./images/photo_car.jpg" alt="andrii pinchuk selfie" width="500" height="500">
-           
         </section>
-        
-
-        <div class="experience">
-            <h2>Work Experience:</h2>
-        <table border="1" cellspacing="0" cellpadding="10px" class="hero__table">
-            <thead>
-                <tr class="table__head">
-                    <th>Period: </th>
-                    <th>Position</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2017-2022</td>
-                    <td>CEO <a href="https://zabobon.com.ua" target="_blank">Zabobon shop</a></td>
-                </tr>
-                <tr>
-                    <td rowspan="2" class="table__descr">Description</td>
-                    <td>made a big brand of massagers</td>  
-                </tr>
-                <tr>
-                    <td>cooperated with Rozetka, Allo, epicentr</td>
-                </tr>
-                <tr>
-                    <td>2019-2021</td>
-                    <td>CEO GonnaGoods Inc.</td>
-                </tr>
-                <tr>
-                    <td class="table__descr">Description</td>
-                    <td>created a retail company, that selling goods on Amazon</td>  
-                </tr>
-                <tr>
-                    <td>2018-2021</td>
-                    <td>CEO <a href="https://pulthouse.com.ua" target="_blank">Pulthouse</a></td>
-                </tr>
-                <tr>
-                    <td rowspan="2" class="table__descr"><strong>Description</strong></td>
-                    <td>finded more than 100 wholesale clients in Ukraine</td>  
-                </tr>
-                <tr>
-                    <td>complete a lot of complicated workwith import remote controllers</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <h2 hero__title-skills>Skills:</h2>
-        <ol class="main__list">
-            <p class="skills__text">FrontEnd: </p>
-            <li class="main__item">HTML</li>
-            <li class="main__item">CSS</li>
-            <li class="main__item">SCSS</li>
-            <li class="main__item">Javascript</li>
-            <p class="skills__text">BackEnd: </p>
-            <li class="main__item">React</li>
-        </ol>
-
-        <h2>Foreign language:</h2>
-        <ul class="main__list">
-            <li class="main__item--lng">English (B1-B2)</li>
-            <li class="main__item--lng">Polish (A2)</li>
-            <li class="main__item--lng">Ukraine (Native)</li>
-            <li class="main__item--lng">Russian (Native)</li>
-        </ul>
-        </div>
-        
+        <section class="about__block">
+            <ul class="about__list">
+                <li class="about__item">Summary</li>
+                <p class="about__text">Friendly, motivated retail assistant with two years of professional experience. I won a coveted employee bonus for exceptional work four times over the past six months and am now keen to utilise my skills in communication, organisation and leadership to transition to a supervisory role within the same industry.</p>
+                <li class="about__item">Skills Highlights</li>
+                <div class="skills">
+                        <ol class="main__list">
+                            <li class="main__item">HTML</li>
+                            <li class="main__item">CSS</li>
+                            <li class="main__item">SCSS</li>
+                        </ol>
+                    </p>
+                        <ol class="main__list">
+                            <li class="main__item">Javascript</li>
+                            <li class="main__item">React</li>
+                    </ol>
+                    </p>
+                </div>
+                
+                <li class="about__item">Work Experience</li>
+                <ul class="work__list">
+                    <li class="work__item">
+                        <p><span class="education__title">Name of employer: </span><a href="https://zabobon.com.ua" target="_blank">Zabobon shop</a></p>
+                        <p><span class="education__title">Dates of employment: </span>2017-2022</p>
+                        <p><span class="education__title">Job title: </span>CEO</p>
+                        <p><span class="education__title">Project/Role description: </span>cooperated with Rozetka, Allo, epicentr</p>
+                    </li>
+                    <li class="work__item">
+                        <p><span class="education__title">Name of employer: </span><a href="https://pulthouse.com.ua" target="_blank">Pulthouse</a></p>
+                        <p><span class="education__title">Dates of employment: </span>2018-2023</p>
+                        <p><span class="education__title">Job title: </span>CEO</p>
+                        <p><span class="education__title">Project/Role description: </span>complete a lot of complicated workwith import remote controllers</p> 
+                    </li>
+                </ul>
+                
+                <li class="about__item">Education</li>
+                <p class="about__text--first"><span class="education__title">Dates of studying: </span>from 2012-2016</p>
+                <p class="about__text"><span class="education__title">Names of institution: </span>Kyiv National Economic University named after Vadym Hetman</p>
+                <p class="about__text"><span class="education__title">Degree and major: </span>MS, Economic</p>
+            </ul>
+        </section>
     </main>
     <footer></footer>
 </body>
 </html>
+
+<!-- <div class="experience">
+    <h2>Work Experience:</h2>
+<table border="1" cellspacing="0" cellpadding="10px" class="hero__table">
+    <thead>
+        <tr class="table__head">
+            <th>Period: </th>
+            <th>Position</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>2017-2022</td>
+            <td>CEO <a href="https://zabobon.com.ua" target="_blank">Zabobon shop</a></td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="table__descr">Description</td>
+            <td>made a big brand of massagers</td>  
+        </tr>
+        <tr>
+            <td>cooperated with Rozetka, Allo, epicentr</td>
+        </tr>
+        <tr>
+            <td>2019-2021</td>
+            <td>CEO GonnaGoods Inc.</td>
+        </tr>
+        <tr>
+            <td class="table__descr">Description</td>
+            <td>created a retail company, that selling goods on Amazon</td>  
+        </tr>
+        <tr>
+            <td>2018-2021</td>
+            <td>CEO <a href="https://pulthouse.com.ua" target="_blank">Pulthouse</a></td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="table__descr"><strong>Description</strong></td>
+            <td>finded more than 100 wholesale clients in Ukraine</td>  
+        </tr>
+        <tr>
+            <td>complete a lot of complicated workwith import remote controllers</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+</div> -->
