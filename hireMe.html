@@ -4,61 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <a href="./">Go home</a>
-    <h2>Hire me:</h2>
-        <p>Contact information</p>
-        <table border="1" cellspacing="0" cellpadding="10px">
-                <tr>
+    <div class="main__form">
+        <div class="contact">
+            <a href="./">Go home</a>
+            <h2>Hire me:</h2>
+                <p>Contact information</p>
+                <table class="main__table">
+                    <tr>
                     <th>Phone:</th>
-                    <th>+380737777777</th>
-                </tr>
-                <tr>
+                    <td>+380737777777</td>
+                    </tr>
+                    <tr>
                     <th>Address:</th>
-                    <th>Kyiv, avenue.Obolonskiy</th>
-                </tr>
-        </table>
+                    <td>Kyiv, avenue.Obolonskiy</td>
+                    </tr>
+                </table>
+        </div>
+        <div class="div__form">
+            <fieldset>
+                <legend>Contact form</legend>
+                <form id="email">
+                    <label for="payment-email" >Email: </label>
+                    <input id="payment-email" type="email" name="email" required/>
+                
+                
+        
+                <br />
+        
+                <label for="payemnt-comment">Description:</label><br />
+                <textarea 
+                id="payment-comment" 
+                name="payment-comment"
+                rows="20"
+                cols="70"
+                placeholder="Hint text"
+                required
+                ></textarea>
 
-        <br>
+                <br>
 
-        <fieldset>
-            <legend>Contact form</legend>
-            <form id="email">
-                <label for="payment-email" >Email: </label>
-                <input id="payment-email" type="email" name="email" required/>
-            </form>
-            
-      
-            <br />
-      
-            <label for="payemnt-comment">Description:</label><br />
-            <textarea 
-              id="payment-comment" 
-              name="payment-comment"
-              rows="20"
-              cols="70"
-            ></textarea>
+                <label>
+                    Work-time
+                    <select 
+                    required
+                    name="expiration-month"
+                    class="select__form"
+                    aria-placeholder=select>
+                    
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="01">Full-time</option>
+                    <option value="02">Working by home</option>
+                    <option value="02">One time project</option>
+                    </select>
+                </label>
 
-            <br>
+                <br>
 
-            <label>
-                Work-time
-                <select 
-                  required
-                  name="expiration-month">
-                  <option></option>
-                  <option value="01">Full-time</option>
-                  <option value="02">Working by home</option>
-                  <option value="02">One time project</option>
-                </select>
-              </label>
-
-              <br>
-
-              <input type="submit" form="email" value="Hire me" />
-          </fieldset>
+                <input class="hireme__btn" type="submit" form="email" value="Hire me" />
+                </form>
+            </fieldset>
+        </div>
+        </div>
 </body>
 </html>
