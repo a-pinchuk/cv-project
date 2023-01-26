@@ -19,9 +19,7 @@ a:hover {
     display: flex;
 }
 
-.hero__block {
-    background-color: #86A3B4;
-}
+
 
 /* GLOBAL */
 h1,
@@ -82,6 +80,14 @@ button {
 
 .hero__block{
     padding-top: 55px;
+    background-color: #86A3B4;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.about__block{
+    margin-left: 320px;
 }
 
 .hero__title {
@@ -274,11 +280,15 @@ color: #1E1E1E;
 /* /////////////////////////////// */
 .main__form{
     max-width: 1024px;
-    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .div__form{
     margin-top: 15px;
+    
 }
 
 .hireme__btn {
